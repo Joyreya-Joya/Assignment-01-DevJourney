@@ -1,0 +1,95 @@
+/* ------All Common CSS Start------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Azeret Mono", monospace;
+}
+
+ul, ol{
+    list-style-type: none;
+    font-family: "Azeret Mono", monospace;
+}
+
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+    font-family: "Azeret Mono", monospace;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.black_font{
+    color: #0D1321;
+}
+.black_bg{
+    background: #0D1321;
+}
+.white_font{
+    color: #ffffff;
+}
+h1{
+    font-size: 48px;
+    line-height: 68px;
+
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+
+}
+.sub_title{
+    margin-top: 24px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+
+/* ------All Common CSS END------  */
+
+/*------- Hero Section CSS Start -------*/
+.hero_section{
+    padding-top: 26px;
+    padding-bottom: 44px;
+    background: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255 255 255 / 70%);
+    background-blend-mode: overlay;
+}
+.hero_contents{
+    max-width: 998px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero_contents img{
+    max-width: 240px;
+    /* margin: 0 auto; */
+}
+.hero_sub_title{
+    margin-bottom: 34px;
+    padding: 0px 73px;
+}
+.contact_btn{
+    padding: 21px 24px;
+}
+
+
+
+
+/*-------Hero Section CSS End------- */
