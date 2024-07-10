@@ -41,8 +41,19 @@ h1,h2,h3,h4,h5,h6, p{
 h1{
     font-size: 48px;
     line-height: 68px;
+    font-weight: 800;
 
 }
+h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
 p{
     font-size: 16px;
     line-height: 26px;
@@ -55,9 +66,23 @@ p{
 .btn{
     font-size: 20px;
     font-weight: 600;
+}
+.round_corner_btn{
     border-radius: 8px;
 }
+.btn_border{
+    border: 1px solid #0D1321;
+}
 
+.heading{
+    max-width: 852px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+.paragraph_mr_large{
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
 
 /* ------All Common CSS END------  */
 
@@ -89,7 +114,45 @@ p{
     padding: 21px 24px;
 }
 
-
-
-
 /*-------Hero Section CSS End------- */
+
+
+.dev_reason{
+    padding-top: 74px;
+    padding-bottom: 90px;
+}
+.dev_reason_div{
+    padding: 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+}
+.why_item{
+    display: flex;
+    padding: 48px 48px 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.why_item_bg_1{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+}
+.why_item_bg_2{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 30%, rgba(255,255,255,1) 100%);
+}
+.why_item_contents{
+    width: 477px;
+}
+.why_item_img{
+    width: 274px;
+}
+.why_item_img img{
+    width: 100%;
+}
+.learn_btn{
+    padding: 12px 20px;
+}
+.why_webdev_items{
+    display:flex;
+    flex-direction:column;
+    row-gap: 32px;
+}
