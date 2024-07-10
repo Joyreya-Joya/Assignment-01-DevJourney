@@ -127,6 +127,29 @@ p{
 /* ------All Common CSS END------  */
 
 /*------- Hero Section CSS Start -------*/
+.nav_bar{
+    padding: 36px 0px;
+    background: #ffffff;
+}
+.my_name{
+    font-size: 28px;
+}
+.nav_bar_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download_btn{
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
 .hero_section{
     padding-top: 26px;
     padding-bottom: 44px;
@@ -152,6 +175,11 @@ p{
 }
 .contact_btn{
     padding: 21px 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 
@@ -258,3 +286,83 @@ p{
     gap: 26px;
 }
 /* ---------- My Next Target Sction ----------  */
+
+
+/* footer section  */
+.call_to_action{
+    padding: 64px 48px; 
+    background: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.cta_header{
+    width: 730px;
+    margin: 0px auto 24px;
+}
+.cta_header h2{
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.cta_header p{
+    width: 606px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+.cta_form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feedback_box{
+    padding: 19px 20px;
+    width: 548px;
+    border-radius: 8px;
+    border: none;
+}
+.feedback_box::placeholder{
+    color: rgba(13, 19, 33, 0.7);
+}
+.submit_btn{
+    width: 120px;
+    padding: 17px 20px;
+    color: #0D1321;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.footer_copywrite{
+    padding: 32px 0px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.copywrite_text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.fcw_justify{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer_icons img{
+    width: 32px;
+    height: 32px;
+}
+/* footer section  */
