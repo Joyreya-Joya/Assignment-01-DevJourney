@@ -32,6 +32,9 @@ h1,h2,h3,h4,h5,h6, p{
 .black_font{
     color: #0D1321;
 }
+.black_light_font{
+    color: #0d1321b3;
+}
 .black_bg{
     background: #0D1321;
 }
@@ -58,6 +61,7 @@ p{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
+    color: #0d1321b3;
 
 }
 .sub_title{
@@ -88,6 +92,37 @@ p{
     padding-top: 16px;
     padding-bottom: 32px;
 }
+.div_flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex_direc_row{
+    gap: 16px;
+}
+.flex_direc_col{
+    flex-direction: column;
+    gap: 16px;
+}
+.underline_btn{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.laguage_margin_p{
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+.light_red{
+    background-color: rgba(255, 75, 31, 0.05);
+}
+.light_blue{
+    background-color: rgba(0, 77, 232, 0.05);
+}
+.light_yellow{
+    background-color: rgba(255, 221, 0, 0.05);
+}
+
 
 /* ------All Common CSS END------  */
 
@@ -119,9 +154,10 @@ p{
     padding: 21px 24px;
 }
 
+
 /*-------Hero Section CSS End------- */
 
-
+/* ----------- Why Web Dev Section start----------- */
 .dev_reason{
     padding-top: 74px;
     padding-bottom: 90px;
@@ -161,6 +197,8 @@ p{
     flex-direction:column;
     row-gap: 32px;
 }
+/* ----------- Why Web Dev Section End----------- */
+
 /* ------- My Inspiration Section Start--------  */
 
 .inspiration{
@@ -174,5 +212,20 @@ p{
     min-height: 550px;
 }
 
-
 /* ------- My Inspiration Section END--------  */
+
+/* ---------- My current Target Section---------- */
+.target{
+    padding-bottom: 110px;
+}
+.laguage_item{
+    width: 33.33%;
+    padding: 40px;
+
+}
+.laguage_item img{
+    width: 56px;
+    margin-bottom: 24px;
+}
+
+/* ---------- My current Target Section---------- */
