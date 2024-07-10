@@ -102,7 +102,7 @@ p{
 }
 .flex_direc_col{
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
 }
 .underline_btn{
     font-size: 16px;
@@ -229,3 +229,32 @@ p{
 }
 
 /* ---------- My current Target Section---------- */
+
+/* ----------  My Next Target Sction ----------  */
+
+.next_target{
+    padding-bottom: 50px;
+}
+
+.next_language_item{
+    padding: 40px;
+}
+.next_lang_icon{
+    width: 10%;
+    text-align: center;
+}
+.next_sml_icon{
+    width: 85%!important;
+}
+.next_lang_icon img{
+    width: 100%;
+}
+.next_laguage_content{
+    width: 90%;
+}
+.next_language_item.div_flex{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 26px;
+}
+/* ---------- My Next Target Sction ----------  */
